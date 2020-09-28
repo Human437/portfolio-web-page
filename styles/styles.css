@@ -1,0 +1,74 @@
+.homepage{
+    background-image: url('../images/markus-spiske-hvSr_CVecVI-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+header > nav{
+    text-align: right;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: gray;
+    font-weight: bolder;
+    padding-right: 15px;
+}
+header > nav >a{
+    font-weight: initial;
+    text-decoration: none;
+    color: gray;
+}
+a:hover{
+    color: whitesmoke;
+}
+#me{
+    width: 300px;
+    border-radius: 15%;
+}
+.info-and-pic{
+    /* display: inline; */
+    color: whitesmoke;
+    display: flex;
+    margin-top: 10%;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+.info{
+    text-align: center;
+    margin: 0px 15px;
+}
+
+h1{
+    font-size: 200px;
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 10px;
+}
+
+h2{
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#linkedin-icon{
+    width: 50px;
+}
+
+footer{
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    text-align: center;
+}
+
+#github-icon{
+    width: 50px;
+    margin-left: 10px;
+}
+
+#github-icon:hover,#linkedin-icon:hover{
+    width: 55px;
+}
