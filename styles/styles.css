@@ -70,6 +70,6 @@ footer{
     margin-left: 10px;
 }
 
-/* #github-icon:hover,#linkedin-icon:hover{
+#github-icon:hover,#linkedin-icon:hover{
     width: 55px;
-} */
+}
