@@ -1,10 +1,11 @@
+/* set bg img to code */
 .homepage{
     background-image: url('../images/markus-spiske-hvSr_CVecVI-unsplash.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
 }
-
+/* style the nav bar */
 header > nav{
     text-align: right;
     font-size: 35px;
@@ -13,18 +14,22 @@ header > nav{
     font-weight: bolder;
     padding-right: 15px;
 }
+/* style the anchor tags in the nav bar */
 header > nav >a{
     font-weight: initial;
     text-decoration: none;
     color: gray;
 }
+/* when hovering over links turn white */
 a:hover{
     color: whitesmoke;
 }
+/* styles the picture of me */
 #me{
     width: 300px;
     border-radius: 15%;
 }
+/* sets display to flex so that the picture and text can be displayed on the same line */
 .info-and-pic{
     /* display: inline; */
     color: whitesmoke;
@@ -34,29 +39,29 @@ a:hover{
     justify-content: center;
     height: 500px;
 }
-
+/* changing the margin and centering text */
 .info{
     text-align: center;
     margin: 0px 15px;
 }
-
+/* styling the heading 1 */
 h1{
     font-size: 200px;
     margin: 0px;
     padding: 0px;
     letter-spacing: 10px;
 }
-
+/* styling heading 2 */
 h2{
     font-size: 30px;
     margin: 0px;
     padding: 0px;
 }
-
+/* setting the width of the linkedin icon */
 #linkedin-icon{
     width: 50px;
 }
-
+/* setting the footer to span the entire width and appear at the bottom of the page */
 footer{
     position: absolute;
     bottom:0;
@@ -64,12 +69,12 @@ footer{
     right:0;
     text-align: center;
 }
-
+/* setting the width of the github icon */
 #github-icon{
     width: 50px;
     margin-left: 10px;
 }
-
+/* enlarging the icons when hovered over */
 #github-icon:hover,#linkedin-icon:hover{
     width: 55px;
 }
