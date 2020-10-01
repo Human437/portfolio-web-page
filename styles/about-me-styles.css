@@ -24,7 +24,7 @@ p,ul{
 }
 /* styling the h4 tag */
 h4{
-    font-size: 30px;
+    font-size: 22px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -36,4 +36,10 @@ li>a{
 /* make the text gray when hovered over */
 li>a:hover{
     color: gray;
+}
+
+@media all and (min-width: 550px){
+    h4{
+        font-size: 30px;
+    }
 }
