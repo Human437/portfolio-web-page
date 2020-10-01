@@ -2,7 +2,7 @@ body{
     background-color: black;
 }
 main{
-    margin: 10% 20%;
+    margin: 10% 10%;
     text-align: justify;
 }
 h3{
@@ -31,8 +31,32 @@ ol > li> a:hover{
     color: gray;
 }
 
+/* .wrapper{
+    width: 100%;
+} */
+
+.group{
+    display: flex;
+    flex-direction: column;
+}
+
+.item{
+    flex: 1;
+    width: 100%;
+}
+
+iframe{
+    width: 100%;
+}
+
 @media all and (min-width: 550px){
     h4{
         font-size: 30px;
+    }
+    .group{
+        flex-direction: row;
+    }
+    .item{
+        margin: 10px;
     }
 }
