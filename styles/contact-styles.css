@@ -26,14 +26,6 @@ ol > li> a{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
-/* setting the color gray when links are hovered over in the list */
-ol > li> a:hover{
-    color: gray;
-}
-
-/* .wrapper{
-    width: 100%;
-} */
 
 .group{
     display: flex;
@@ -48,6 +40,35 @@ ol > li> a:hover{
 iframe{
     width: 100%;
 }
+.item-double{
+    flex: 2;
+}
+
+/* stuff for contact form */
+form{
+    margin: 5px;
+  }
+  form label{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  form input, form textarea{
+    display: block;
+    width: 100%;
+  }
+  
+  form textarea{
+    height: 160px;
+  }
+  
+  form button{
+    border-radius: 5px;
+    margin-top: 20px;
+    border-width: 1px;
+  }
 
 @media all and (min-width: 550px){
     h4{
@@ -56,7 +77,11 @@ iframe{
     .group{
         flex-direction: row;
     }
-    .item{
+    .item, .item-double{
         margin: 10px;
+    }
+    /* setting the color gray when links are hovered over in the list */
+    ol > li> a:hover{
+        color: gray;
     }
 }
