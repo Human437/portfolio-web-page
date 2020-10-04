@@ -13,12 +13,21 @@
     href="https://avatars3.githubusercontent.com/u/48500351?s=460&v=4" rel = "shortcut icon">
     <!-- linking my style sheet -->
     <link href="styles/styles.css" rel="stylesheet" type="text/css"/>
+    <link href="styles/hamburger.css" rel="stylesheet" type="text/css"/>
 </head>
 <body class="homepage">
     <!-- nav bar -->
     <header>
-        <nav>
-            <a href = "./">Home</a> | <a href="about.html"> About</a> | <a href="portfolio.html">Portfolio</a> | <a href="contact.html">Contact</a>
+        <nav id="hamnav">
+            <label for="hamburger">&#9776;</label>
+            <input type="checkbox" id="hamburger"/>
+
+            <div id="hamitems">
+                <a href="./">Home</a>
+                <a href="about.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </div>
         </nav>
     </header>
     <main>
