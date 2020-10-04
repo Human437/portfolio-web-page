@@ -20,6 +20,7 @@ header > nav >a:hover{
 }
 body{
     /* background-color: black; */
+    /* Background pattern from Toptal Subtle Patterns, Made by: Tomislava Babić */
     background-image: url('../images/y-so-serious.png');
 }
 h2,h3,p{
