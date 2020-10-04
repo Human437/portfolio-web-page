@@ -8,25 +8,24 @@
     background-color: black; */
 }
 /* style the nav bar */
-header > nav{
+/* header > nav{
     text-align: center;
     font-size: 23px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: gray;
     font-weight: bolder;
-    /* padding-right: 15px; */
     margin: 5px 10px 10px 10px;
-}
+} */
 /* style the anchor tags in the nav bar */
-header > nav >a{
+/* header > nav >a{
     font-weight: initial;
     text-decoration: none;
     color: gray;
-}
+} */
 /* when hovering over links turn white */
-header > nav >a:hover{
+/* header > nav >a:hover{
     color: whitesmoke;
-}
+} */
 
 img{
     width: 100%;
@@ -65,14 +64,26 @@ body{
     margin: 0px 5px;
 }
 .footer-nav{
-    bottom: 0;
+    position: sticky;
     left: 0;
-    right: 0;
+    bottom: 0;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
 
+
+
 @media all and (min-width: 550px) {
+header{
+    min-height: 10vh;
+    }
+    main{
+    min-height: 80vh;
+    }
+    footer{
+    min-height: 10vh;
+    }
     .wrapper {
       width: 90%;
       margin: auto;
@@ -99,5 +110,14 @@ body{
 
     .footer-nav{
         position: absolute;
+    }
+
+    footer{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
     }
   }
