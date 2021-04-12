@@ -1,6 +1,6 @@
 /* setting the bg to black */
 body{
-    /* background-color: black; */
+    background-color: black;
     /* Background pattern from Toptal Subtle Patterns, Made by: Tomislava Babić */
     background-image: url('../images/y-so-serious.png');
 }
