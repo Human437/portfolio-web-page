@@ -33,7 +33,7 @@ h4{
 /* setting the links to white and removing the underline */
 li>a{
     text-decoration: none;
-    color: whitesmoke;
+    color: rgb(136, 213, 236);
 }
 /* make the text gray when hovered over */
 li>a:hover{
