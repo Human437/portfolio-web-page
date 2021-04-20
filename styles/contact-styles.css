@@ -1,89 +1,92 @@
-body{
-    background-color: black;
-    /* Background pattern from Toptal Subtle Patterns, Made by: Tomislava Babić */
-    background-image: url('../images/y-so-serious.png');
+body {
+  background-color: black;
+  /* Background pattern from Toptal Subtle Patterns, Made by: Tomislava Babić */
+  background-image: url("../images/y-so-serious.png");
 }
-main{
-    margin: 3% 10%;
-    text-align: justify;
+main {
+  margin: 3% 10%;
+  text-align: justify;
 }
-h3{
-    font-size: 50px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
+h3 {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
 }
-header,main{
-    color: whitesmoke;
+header,
+main {
+  color: whitesmoke;
 }
-h4{
-    font-size: 25px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+h4 {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
 }
 /* styling the anchor tags in the list */
-ol > li> a{
-    color: rgb(136, 213, 236);
-    text-decoration: none;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+ol > li > a {
+  color: rgb(136, 213, 236);
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.group{
-    display: flex;
-    flex-direction: column;
+.group {
+  display: flex;
+  flex-direction: column;
 }
 
-.item{
-    flex: 1;
-    width: 100%;
+.item {
+  flex: 1;
+  width: 100%;
 }
 
-iframe{
-    width: 100%;
+iframe {
+  width: 100%;
 }
-.item-double{
-    flex: 2;
+.item-double {
+  flex: 2;
 }
 
 /* stuff for contact form */
-form{
-    margin: 5px;
-  }
-  form label{
-    display: block;
-    margin-top: 10px;
-    margin-bottom: 3px;
-    font-size: 17px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  form input, form textarea{
-    display: block;
-    width: 100%;
-  }
-  
-  form textarea{
-    height: 160px;
-  }
-  
-  form button{
-    border-radius: 5px;
-    margin-top: 20px;
-    border-width: 1px;
-  }
+form {
+  margin: 5px;
+}
+form label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 3px;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+}
 
-@media all and (min-width: 550px){
-    h4{
-        font-size: 30px;
-    }
-    .group{
-        flex-direction: row;
-    }
-    .item, .item-double{
-        margin: 10px;
-    }
-    /* setting the color gray when links are hovered over in the list */
-    ol > li> a:hover{
-        color: gray;
-    }
+form textarea {
+  height: 160px;
+}
+
+form button {
+  border-radius: 5px;
+  margin-top: 20px;
+  border-width: 1px;
+}
+
+@media all and (min-width: 550px) {
+  h4 {
+    font-size: 30px;
+  }
+  .group {
+    flex-direction: row;
+  }
+  .item,
+  .item-double {
+    margin: 10px;
+  }
+  /* setting the color gray when links are hovered over in the list */
+  ol > li > a:hover {
+    color: gray;
+  }
 }

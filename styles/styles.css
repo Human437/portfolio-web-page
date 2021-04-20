@@ -1,124 +1,99 @@
 /* set bg img to code */
-.homepage{
-    /* Background pattern from Toptal Subtle Patterns, Made by: Tomislava Babić */
-    background-image: url('../images/y-so-serious.png');
-    /* background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-    background-color: black; */
-    background-color: black;
+.homepage {
+  /* Background pattern from Toptal Subtle Patterns, Made by: Tomislava Babić */
+  background-image: url("../images/y-so-serious.png");
+  background-color: black;
 }
-/* style the nav bar */
-/* header > nav{
-    text-align: center;
-    font-size: 23px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: gray;
-    font-weight: bolder;
-    margin: 5px 10px 10px 10px;
-} */
-/* style the anchor tags in the nav bar */
-/* header > nav >a{
-    font-weight: initial;
-    text-decoration: none;
-    color: gray;
-} */
-/* when hovering over links turn white */
-/* header > nav >a:hover{
-    color: whitesmoke;
-} */
-
-img{
-    width: 100%;
-    border-radius: 10px;
-    max-width: 550px;
+img {
+  width: 100%;
+  border-radius: 10px;
+  max-width: 550px;
 }
 
-h1,h2{
-    color: whitesmoke;
-    text-align: center;
-    margin: 10px;
+h1,
+h2 {
+  color: whitesmoke;
+  text-align: center;
+  margin: 10px;
 }
 
-h1{
-    font-size: 100px;
-    margin: 0px;
+h1 {
+  font-size: 100px;
+  margin: 0px;
 }
 
-h2{
-    font-size: 30px;
+h2 {
+  font-size: 30px;
 }
 
-.wrapper{
-    width: 100%;
+.wrapper {
+  width: 100%;
 }
-.info-and-pic{
-    display: flex;
-    flex-direction: column;
+.info-and-pic {
+  display: flex;
+  flex-direction: column;
 }
-body{
-    height: 100%;
-}
-
-.footer-icon{
-    width: 25px;
-    margin: 0px 5px;
-}
-.footer-nav{
-    position: sticky;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+body {
+  height: 100%;
 }
 
-
+.footer-icon {
+  width: 25px;
+  margin: 0px 5px;
+}
+.footer-nav {
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 
 @media all and (min-width: 550px) {
-header{
+  header {
     min-height: 10vh;
-    }
-    main{
+  }
+  main {
     min-height: 80vh;
-    }
-    footer{
+  }
+  footer {
     min-height: 10vh;
-    }
-    .wrapper {
-      width: 90%;
-      margin: auto;
-    }
-  
-    .info-and-pic {
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-    }
+  }
+  .wrapper {
+    width: 90%;
+    margin: auto;
+  }
 
-    header > nav{
-        text-align: right;
-        font-size: 30px;
-    }
+  .info-and-pic {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .footer-icon{
-        width: 50px;
-    }
+  header > nav {
+    text-align: right;
+    font-size: 30px;
+  }
 
-    .footer-icon:hover{
-        width: 55px;
-    }
+  .footer-icon {
+    width: 50px;
+  }
 
-    .footer-nav{
-        position: absolute;
-    }
+  .footer-icon:hover {
+    width: 55px;
+  }
 
-    footer{
+  .footer-nav {
+    position: absolute;
+  }
+
+  footer {
     width: 100%;
     height: 90px;
     display: flex;
     align-items: flex-end;
     justify-content: center;
     text-align: center;
-    }
   }
+}

@@ -1,47 +1,49 @@
 /* setting the bg to black */
-body{
-    background-color: black;
-    /* Background pattern from Toptal Subtle Patterns, Made by: Tomislava Babić */
-    background-image: url('../images/y-so-serious.png');
+body {
+  background-color: black;
+  /* Background pattern from Toptal Subtle Patterns, Made by: Tomislava Babić */
+  background-image: url("../images/y-so-serious.png");
 }
 /* setting text to white */
-header,main{
-    color: whitesmoke;
+header,
+main {
+  color: whitesmoke;
 }
 /* setting the margins for main text */
-main{
-    margin: 5% 25%;
+main {
+  margin: 5% 25%;
 }
 /* styling the h3 tag */
-h3{
-    font-size: 50px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
+h3 {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
 }
 /* setting the font and size for the p and ul tags */
-p,ul{
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+p,
+ul {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 /* styling the h4 tag */
-h4{
-    font-size: 22px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+h4 {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
 }
 /* setting the links to white and removing the underline */
-li>a{
-    text-decoration: none;
-    color: rgb(136, 213, 236);
+li > a {
+  text-decoration: none;
+  color: rgb(136, 213, 236);
 }
 /* make the text gray when hovered over */
-li>a:hover{
-    color: gray;
+li > a:hover {
+  color: gray;
 }
 
-@media all and (min-width: 550px){
-    h4{
-        font-size: 30px;
-    }
+@media all and (min-width: 550px) {
+  h4 {
+    font-size: 30px;
+  }
 }

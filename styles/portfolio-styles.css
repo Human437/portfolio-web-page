@@ -1,53 +1,55 @@
-body{
-    background-color: black;
-    /* Background pattern from Toptal Subtle Patterns, Made by: Tomislava Babić */
-    background-image: url('../images/y-so-serious.png');
+body {
+  background-color: black;
+  /* Background pattern from Toptal Subtle Patterns, Made by: Tomislava Babić */
+  background-image: url("../images/y-so-serious.png");
 }
-h2,h3,p{
-    color: whitesmoke;
-    text-align: center;
+h2,
+h3,
+p {
+  color: whitesmoke;
+  text-align: center;
 }
-h2{
-    font-size: 50px;
+h2 {
+  font-size: 50px;
 }
-a{
-    text-decoration: none;
-    color: rgb(136, 213, 236);
+a {
+  text-decoration: none;
+  color: rgb(136, 213, 236);
 }
-a:hover{
-    color: gray;
+a:hover {
+  color: gray;
 }
-img{
-    width: 100%;
-    max-width: 550px;
-    border-radius: 15px;
+img {
+  width: 100%;
+  max-width: 550px;
+  border-radius: 15px;
 }
-.group{
-    display: flex;
-    flex-direction: column;
+.group {
+  display: flex;
+  flex-direction: column;
 }
 
-@media all and (min-width: 550px){
-    .group{
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    header > nav{
-        text-align: right;
-        font-size: 30px;
-    }
-    .item{
-        text-align: center;
-        flex: 1;
-        margin: 10px;
-    }
-    h2{
-        font-size: 70px;
-    }
-    h3{
-        font-size: 30px;
-    }
-    P{
-        font-size: 20px;
-    }
+@media all and (min-width: 550px) {
+  .group {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  header > nav {
+    text-align: right;
+    font-size: 30px;
+  }
+  .item {
+    text-align: center;
+    flex: 1;
+    margin: 10px;
+  }
+  h2 {
+    font-size: 70px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  P {
+    font-size: 20px;
+  }
 }
